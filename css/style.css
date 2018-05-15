@@ -179,7 +179,7 @@ h2, h3 {
     color: antiquewhite;
     text-transform: uppercase;
     transition: all .3s;
-    font-size: 21px;
+    font-size: 24px;
     font-weight: 700;
 
 }
@@ -192,6 +192,12 @@ h2, h3 {
     color: black;
 }
 
+
+.nav.navbar-nav {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
 /* Main Menu Styles End */
 
 /*Header Styles*/
@@ -249,7 +255,7 @@ h2, h3 {
 
 
 .slider-images img {
-    height: 200px width: 200px;
+    height: 200px; 
     margin: auto;
     border-radius: 5%;
 }
@@ -364,7 +370,6 @@ h2, h3 {
 /*Section News Style*/
 .news {
     background-color: antiquewhite;
-    
 }
 
 .news-background{
@@ -431,6 +436,7 @@ h2, h3 {
     background-position: 0% 85%;
     height: 500px;
     border-radius: 2%;
+    
 }
 .contact-details .contact-name {
     font-size: 27px;

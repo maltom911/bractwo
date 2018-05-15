@@ -54,6 +54,7 @@ $(function () {
 
 });
 
+
 $(document).ready(function () {
     $('.slider-images').slick({
         arrows: false,
