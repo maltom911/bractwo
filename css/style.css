@@ -178,37 +178,19 @@ h2, h3 {
 #main-nav a {
     color: antiquewhite;
     text-transform: uppercase;
-     font-family: 'Marcellus SC', serif;
-    font-family: 'Belleza', sans-serif;
-    font-family: 'Cinzel', serif;
-    font-family: 'Cinzel Decorative', cursive;
     transition: all .3s;
     font-size: 21px;
+    font-weight: 700;
+
 }
-
-
 
 .navbar-default {
     top: 10%;
-
 }
 
 #main-nav a:hover {
     color: black;
 }
-
-#main-nav.scroll {
-    background-color: rgba(14, 216, 214, 0.85);
-}
-
-#main-nav.scroll a {
-    color: #fff;
-}
-
-#main-nav.scroll a:hover {
-    color: #777777;
-}
-
 
 /* Main Menu Styles End */
 
@@ -226,12 +208,11 @@ h2, h3 {
 }
 
 .logo {
-    width: 225px;
-    height: 300px;
+    width: 333px;
+    height: 515px;
     position: absolute;
-    left: 5%;
-    /*left:50%;
-    transform: translateX(-50%);*/
+    left: 2%;
+    bottom: 40%;
 }
 
 .logo > img {
@@ -249,7 +230,7 @@ h2, h3 {
     font-family: 'Belleza', sans-serif;
     font-family: 'Cinzel', serif;
     font-family: 'Cinzel Decorative', cursive;
-    color: #404040;
+    color: black;
 
 }
 
@@ -271,7 +252,6 @@ h2, h3 {
     height: 200px width: 200px;
     margin: auto;
     border-radius: 5%;
-    opacity: 0.7;
 }
 
 /*Header Styles End*/
@@ -358,7 +338,6 @@ h2, h3 {
     left: 50%;
     transform: translate(-50%,-50%);
     font-size: 30px;
-    font-family: 'Cinzel Decorative', cursive;
     color: antiquewhite;
     text-align: center;
 }
@@ -391,12 +370,13 @@ h2, h3 {
 .news-background{
     height: 600px;
     width: 100%;
-    background-image:url(../img/news/vintage.jpg);
+    background-image:url(../img/news/vintage_2.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     margin: auto;
     border: 10px solid black;
+    position: relative;
 }
 
 .news-scroll {
@@ -409,7 +389,7 @@ h2, h3 {
     height: 100%;
 }
 .news-padding {
-    padding: 40px;
+    padding-left: 4%;
 }
 
 .news-topic {
@@ -425,22 +405,12 @@ h2, h3 {
     font-weight: 700;
 }
 
-.news-photo {
-    background-image:url(../img/news/rewolwer.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 310px;
-    opacity: 0.6;
-    border-radius: 50%;
-}
 /*Section News Style End*/
 
 /*Section contact*/
 .section-border {
     height: 2px;
     background-color: antiquewhite;
-    
 }
 
 .section-border-line {
@@ -487,6 +457,11 @@ h2, h3 {
     color: antiquewhite;
     margin: 0;
     
+}
+
+.content-footer .copyright {
+    font-size: 15px;
+    padding-top: 5px;
 }
 
 /*Footer Styles End*/
