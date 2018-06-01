@@ -45,28 +45,18 @@ h3 {
     background-size: cover;
     background-repeat: no-repeat;
     height: 100%;
-    background-position: 0% 80%;
-}
-
-.logo {
-    width: 333px;
-    height: 515px;
-    position: absolute;
-    left: 2%;
-    bottom: 40%;
-}
-
-.logo > img {
-    height: 100%;
+    background-position: 0% 85%;
 }
 
 .header-menu-container > .header {
+    width: 50%;
+    line-height: inherit;
     position: absolute;
-    top: 30%;
-    left: 50%;
+    top: 24%;
+    left: 75%;
     transform: translateX(-50%);
     text-align: center;
-    font-size: 70px;
+    font-size: 75px;
     font-family: 'Cinzel Decorative', cursive;
     color: antiquewhite;
 }
@@ -83,7 +73,6 @@ h3 {
     left: 50%;
     transform: translateX(-50%)
 }
-
 
 .slider-images img {
     height: 200px;
@@ -115,13 +104,16 @@ h3 {
     transition: all 0.5s ease;
 }
 
+.subpages-link {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
 
 .category-container:hover {
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
-
 }
-
 
 .category-container.one {
     background-image: url(../img/categories/wladze.jpg);
@@ -284,32 +276,46 @@ h3 {
 /*Footer Styles End*/
 
 /*Section Authorities*/
+
+
 .authorities {
-    height: 100%;
+ padding-bottom: 150px;
+}
+
+.authorities-row-padding {
+    padding-left: 15%;
+    padding-right: 15%;
 }
 
 .authorities-text {
-    font-size: 60px;
+    font-size: 50px;
 }
 
 .authorities-text-function {
-    font-size: 40px;
+    margin: 10px 0px 0px 0px;
+    font-size: 35px;
+    height: 71px;
+    letter-spacing: 10px;
+
 }
+.authorities-border-left {
+    border-left: 3px solid black;
+}
+
+
 /*Section Authorities End*/
+
+/*Section History*/
+.history {
+    height: 100%;
+}
+/*Section History End*/
 
 /*Responsive*/
 
 /* Large Devices, Wide Screens */
 
 @media only screen and (max-width: 1600px) {
-
-    #main-nav a {
-        font-size: 21px;
-    }
-
-    .logo {
-        height: 405px;
-    }
 
     .header-menu-container > .header {
         font-size: 56px;
@@ -335,17 +341,11 @@ h3 {
     h3 {
         font-size: 45px;
     }
-
-    #main-nav a {
-        font-size: 17px;
+    
+    .header-menu-container {
+    background-position: 0% 73%;
     }
-
-    .logo {
-        height: 338px;
-        width: 200px;
-        left: 1%;
-    }
-
+    
     .header-menu-container > .header {
         font-size: 45px;
     }
@@ -418,25 +418,16 @@ h3 {
     h3 {
         font-size: 40px;
     }
-
-    #main-nav a {
-        font-size: 12px;
+    .header-menu-container {
+    background-position: 0% 100%;
     }
-
-    .navbar-default {
-        top: 7%;
-    }
-
-    .logo {
-        height: 320px;
-    }
-
+    
     .header-menu-container > .header {
         font-size: 45px;
     }
 
     .first-letter {
-        font-size: 75px;
+        font-size: 70px;
     }
 
     .slider-images img {
