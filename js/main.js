@@ -44,7 +44,7 @@ $(document).ready(function () {
 });
 
 $(document).ready(function () {
-    $('.main-site-content').fadeIn(1500);
+    $('.main-site-content').fadeIn(2000);
     $('.header').hide();
     $('.header').slideDown(3500);
 });
