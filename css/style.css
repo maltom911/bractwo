@@ -36,6 +36,10 @@ h3 {
     display: none;
 }
 
+a:hover {
+    color: black;
+}
+
 
 /*General Styles End */
 
@@ -477,8 +481,6 @@ h3 {
     margin: 0px 0px 0px 10px;
 }
 
-/*Section History End*/
-
 /*Fade in*/
 
 .history-photo {
@@ -500,6 +502,186 @@ h3 {
     }
 }
 
+/*Section History End*/
+
+/*Section Kings*/
+.kings-row-padding {
+     padding-left: 10%;
+    padding-right: 10%;
+}
+
+.kings-margin {
+    margin-bottom: 35px;
+} 
+
+.king-photo {
+    height: 100%;
+    height: 400px;
+    width: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.king-photo.one {
+     background-image: url(../img/kings/10.jpg);
+}
+
+.king-header {
+    font-size: 35px;
+    letter-spacing: 5px;
+    border-bottom: 1px solid black;
+    margin: 40px 0px 40px 0px;
+}
+
+.kings-text {
+    font-size: 20px;
+    text-align:justify;
+    padding-left: 2%;
+}
+
+.king-bigger{
+    font-size: 30px;
+}
+
+.marshal-photo {
+    height: 100%;
+    height: 400px;
+    width: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+}
+
+.marshal-photo.one {
+     background-image: url(../img/kings/marszalek1.jpg);
+}
+
+.marshal-photo.two {
+     background-image: url(../img/kings/marszalek2.jpg);
+}
+/*Section Kings End*/
+
+/*Section Gallery*/ 
+.gallery-row-padding {
+    padding-right: 15%;
+    padding-left:15%;
+}
+.gallery-padding {
+    padding: 15px;
+}
+
+.gallery-background {
+    background-color: navajowhite;
+    padding: 15px;
+}
+.gallery-container {
+    height: 200px;
+    overflow: hidden;  
+}
+
+.gallery-label {
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    transition: .3s;
+}
+
+.gallery-label:hover {
+    transform: scale(1.1);
+    max-width: 100%;
+}
+
+.gallery-mask {
+    background-color: rgba(42, 61, 79, 0.8);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all linear .3s;
+    cursor: pointer;
+}
+
+.gallery-mask:hover {
+    opacity: 0.5;
+}
+
+.gallery-mask > a {
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+}
+
+.gallery-title {
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.gallery-label.one {
+    background-image:url(../img/gallery/gallery_one.jpg);
+}
+
+
+/*Section Gallery End*/
+/*Section Gallery Photos*/
+
+.gallery-photos-row-padding{
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+.gallery-photos-padding {
+    padding:0;
+}
+
+.gallery-photo-container{
+    height: 300px;
+    overflow: hidden;
+}
+.gallery-photo {
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    transition: .3s;
+}
+
+.gallery-photo:hover {
+    transform:scale(1.2);
+    max-width: 100%;
+}
+
+.gallery-photo-container a {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+}
+
+.gallery-photo.one {
+    background-image:url(../img/categories/ciekawostki.jpg);
+}
+
+.gallery-photo.two {
+    background-image:url(../img/categories/galeria.jpg);
+}
+
+.gallery-photo.three {
+    background-image:url(../img/categories/krolowie.jpg);
+}
+
+.gallery-photo.four {
+    background-image:url(../img/categories/komunikaty.jpg);
+}
+
+
+/*Section Gallery Photos End*/
 /*Responsive*/
 
 /* Large Devices, Wide Screens */
