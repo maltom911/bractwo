@@ -48,3 +48,15 @@ $(document).ready(function () {
     $('.header').hide();
     $('.header').slideDown(3500);
 });
+
+$(document).ready(function () {
+     $('.do-you-know').hide(5000);
+});
+
+$(document).ready(function(){
+	var time = 0;
+	$('.animate').each(function() {
+	    $(this).delay(time).fadeIn(1000);
+	    time += 500;
+	});
+});

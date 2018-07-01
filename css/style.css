@@ -40,6 +40,16 @@ a:hover {
     color: black;
 }
 
+.btn-style {
+    background-color: floralwhite;
+    border: 2px dashed black;
+    color: black;
+    font-size: 24px;
+}
+
+.btn-padding {
+    padding: 0;
+}
 
 /*General Styles End */
 
@@ -449,7 +459,8 @@ a:hover {
 /*Section History*/
 
 .history-header {
-    font-size: 51px;
+    font-size: 45px;
+    padding-top:20px;
 }
 
 .history-text {
@@ -575,6 +586,7 @@ a:hover {
 .gallery-background {
     background-color: navajowhite;
     padding: 15px;
+    border-radius: 5%;
 }
 .gallery-container {
     height: 200px;
@@ -630,6 +642,7 @@ a:hover {
 /*Section Gallery End*/
 /*Section Gallery Photos*/
 
+
 .gallery-photos-row-padding{
     padding-right: 5%;
     padding-left: 5%;
@@ -682,6 +695,28 @@ a:hover {
 
 
 /*Section Gallery Photos End*/
+
+/*Section Curiosities*/
+
+.curiosities-row-padding{
+    padding-right: 15%;
+    padding-left: 15%;
+}
+
+.do-you-know {
+    font-size: 50px; 
+}
+
+.curiosities-text {
+    background-color: floralwhite;
+    border: 2px dashed black;
+    color: black;
+    font-size:25px;
+    margin-bottom: 2%;
+    text-align: justify;
+    display: none;
+}
+/*Section Curiosities End*/
 /*Responsive*/
 
 /* Large Devices, Wide Screens */
