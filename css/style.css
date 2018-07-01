@@ -717,6 +717,36 @@ a:hover {
     display: none;
 }
 /*Section Curiosities End*/
+
+/*Section Releases*/
+.releases-row-padding{
+    padding-right: 20%;
+    padding-left: 20%;
+}
+
+.releases-container {
+    height: 1000px;
+    border: 8px solid black;
+    overflow-y: scroll;
+    background-color: floralwhite;;
+}
+
+.release-header {
+    font-size: 35px;
+    border-bottom: 1px solid black;
+}
+
+.release.one {
+    height: 100%;
+    width: 100%;
+    padding: 5%;
+}
+
+.release-text {
+    font-size: 20px;
+    text-align: justify;
+}
+/*Section Releases End*/
 /*Responsive*/
 
 /* Large Devices, Wide Screens */
