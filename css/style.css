@@ -192,7 +192,6 @@ a:hover {
     background-color: antiquewhite;
     height: 100%;
     padding: 15px;
-    display: none;
 }
 
 .header-menu-container {
@@ -201,6 +200,7 @@ a:hover {
     background-repeat: no-repeat;
     height: 100%;
     background-position: 0% 85%;
+    display: none;
 }
 
 .header-menu-container > .header {
@@ -1010,7 +1010,6 @@ a:hover {
 
     .release-text {
         font-size: 17px;
-        text-align: justify;
     }
 
     .do-you-know {
@@ -1117,61 +1116,38 @@ a:hover {
         padding-right: 3%;
         padding-left: 3%;
     }
-    
-    .gallery-photos-padding{
+
+    .gallery-photos-padding {
         width: 33.33333333%;
     }
-    
-    .history-header {
-        font-size: 36px;
-    }
-
-    .history-photo {
-        height: 230px;
-    }
-
-    .history-text {
-        font-size: 17px;
-    }
-
-    .bigger-letter {
-        font-size: 25px;
-    }
-
-    .release-header {
-        font-size: 32px;
-    }
-
-    .release-text {
-        font-size: 17px;
-        text-align: justify;
-    }
-
-    .do-you-know {
-        font-size: 40px;
-    }
-
-    .curiosities-text {
-        font-size: 17px;
-    }
-
-
-    /*history*/
-    .history-text {
-        font-size: 14px;
-    }
 
     .history-header {
-        font-size: 35px;
-    }
-
-    .bigger-letter {
         font-size: 30px;
     }
 
+    .history-row-padding {
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+
     .history-photo {
-        height: 225px;
-        border-radius: 2%;
+        height: 200px;
+    }
+
+    .release-header {
+        font-size: 30px;
+    }
+
+    .release-text {
+        font-size: 15px;
+    }
+
+    .do-you-know {
+        font-size: 35px;
+    }
+
+    .curiosities-text {
+        font-size: 16px;
     }
 }
 
