@@ -16,10 +16,18 @@ body {
 }
 
 section {
-    padding-top: 70px;
+    padding-top: 40px;
     padding-bottom: 85px;
     background-color: antiquewhite;
 }
+
+#categories,
+.news,
+.contact {
+    padding-top: 70px;
+    padding-bottom: 85px;
+}
+
 
 h1,
 h2,
@@ -31,23 +39,17 @@ h3 {
     margin: 0;
 }
 
-.main-site-content {
-    height: 100%;
-    display: none;
-}
-
 a:hover {
     color: black;
 }
 
-.btn-style {
-    background-color: floralwhite;
-    border: 2px dashed black;
-    color: black;
-    font-size: 24px;
+.btn-arrow {
+    height: 100px;
+    width: 180px;
+    float: right;
 }
 
-.btn-padding {
+.arrow-padding {
     padding: 0;
 }
 
@@ -191,6 +193,7 @@ a:hover {
     background-color: antiquewhite;
     height: 100%;
     padding: 15px;
+    display: none;
 }
 
 .header-menu-container {
@@ -232,6 +235,7 @@ a:hover {
 /*Header Styles End*/
 
 /*Section Categories Style*/
+
 
 .categories-row-padding {
     padding: 0 150px 0 150px;
@@ -425,10 +429,6 @@ a:hover {
 
 /*Section Authorities*/
 
-.authorities {
-    padding-bottom: 150px;
-}
-
 .authorities-row-padding {
     padding-left: 15%;
     padding-right: 15%;
@@ -455,67 +455,8 @@ a:hover {
 
 
 /*Section Authorities End*/
-
-/*Section History*/
-
-.history-header {
-    font-size: 45px;
-    padding-top:20px;
-}
-
-.history-text {
-    font-size: 25px;
-    text-align: justify;
-}
-
-.bigger-letter {
-    font-size: 40px;
-}
-
-.history-row-padding {
-    padding-left: 15%;
-    padding-right: 15%;
-}
-
-.history-photo {
-    height: 300px;
-    border-radius: 2%;
-}
-
-.left {
-    float: left;
-    margin: 0px 10px 0px 0px;
-}
-
-.right {
-    float: right;
-    margin: 0px 0px 0px 10px;
-}
-
-/*Fade in*/
-
-.history-photo {
-    visibility: hidden;
-}
-
-.fadeIn {
-    -webkit-animation: animat_show 1.5s;
-    animation: animat_show 1.5s;
-    visibility: visible;
-}
-
-@-webkit-keyframes animat_show {
-    0% {
-        opacity: 0
-    }
-    100% {
-        opacity: 1
-    }
-}
-
-/*Section History End*/
-
 /*Section Kings*/
+
 .kings-row-padding {
      padding-left: 10%;
     padding-right: 10%;
@@ -573,7 +514,6 @@ a:hover {
      background-image: url(../img/kings/marszalek2.jpg);
 }
 /*Section Kings End*/
-
 /*Section Gallery*/ 
 .gallery-row-padding {
     padding-right: 15%;
@@ -695,29 +635,64 @@ a:hover {
 
 
 /*Section Gallery Photos End*/
+/*Section History*/
 
-/*Section Curiosities*/
-
-.curiosities-row-padding{
-    padding-right: 15%;
-    padding-left: 15%;
+.history-header {
+    font-size: 45px;
+    padding-top:20px;
 }
 
-.do-you-know {
-    font-size: 50px; 
-}
-
-.curiosities-text {
-    background-color: floralwhite;
-    border: 2px dashed black;
-    color: black;
-    font-size:25px;
-    margin-bottom: 2%;
+.history-text {
+    font-size: 25px;
     text-align: justify;
-    display: none;
 }
-/*Section Curiosities End*/
 
+.bigger-letter {
+    font-size: 40px;
+}
+
+.history-row-padding {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.history-photo {
+    height: 300px;
+    border-radius: 2%;
+}
+
+.left {
+    float: left;
+    margin: 0px 10px 0px 0px;
+}
+
+.right {
+    float: right;
+    margin: 0px 0px 0px 10px;
+}
+
+/*Fade in*/
+
+.history-photo {
+    visibility: hidden;
+}
+
+.fadeIn {
+    -webkit-animation: animat_show 1.5s;
+    animation: animat_show 1.5s;
+    visibility: visible;
+}
+
+@-webkit-keyframes animat_show {
+    0% {
+        opacity: 0
+    }
+    100% {
+        opacity: 1
+    }
+}
+
+/*Section History End*/
 /*Section Releases*/
 .releases-row-padding{
     padding-right: 20%;
@@ -747,6 +722,28 @@ a:hover {
     text-align: justify;
 }
 /*Section Releases End*/
+/*Section Curiosities*/
+
+.curiosities-row-padding{
+    padding-right: 15%;
+    padding-left: 15%;
+}
+
+.do-you-know {
+    font-size: 50px; 
+}
+
+.curiosities-text {
+    background-image:url(../img/welcome-background/curiosity.png);
+    border: 2px solid black;
+    background-color: antiquewhite;
+    font-size: 24px;
+    margin-bottom: 2%;
+    text-align: justify;
+    font-weight: 700;
+    display: none;
+}
+/*Section Curiosities End*/
 /*Responsive*/
 
 /* Large Devices, Wide Screens */

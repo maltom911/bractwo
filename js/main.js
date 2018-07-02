@@ -10,11 +10,6 @@ $(document).ready(function () {
     });
 });
 
-/*$(document).ready(function () {
-    $('.header').hide();
-    $('.header').slideDown(3500);
-});*/
-
 function showImages(el) {
     var windowHeight = jQuery(window).height();
     $(el).each(function () {
@@ -26,7 +21,6 @@ function showImages(el) {
         }
     });
 }
-
 // if the image in the window of browser when the page is loaded, show that image
 $(document).ready(function () {
     showImages('.history-photo');
@@ -44,7 +38,7 @@ $(document).ready(function () {
 });
 
 $(document).ready(function () {
-    $('.main-site-content').fadeIn(2000);
+    $('.header-wrapper').fadeIn(2000);
     $('.header').hide();
     $('.header').slideDown(3500);
 });
