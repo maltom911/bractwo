@@ -1263,13 +1263,13 @@ a:hover {
     .history-photo {
         height: 120px;
     }
-    
-     .curiosities-row-padding {
+
+    .curiosities-row-padding {
         padding-right: 5%;
         padding-left: 5%;
     }
 
-   
+
 }
 
 @media only screen and (max-width: 480px) {
@@ -1292,6 +1292,7 @@ a:hover {
         transform: translate(-50%, -50%);
         font-size: 36px;
         font-weight: 700;
+        line-height: 200%;
     }
 
     .col-xss-12 {
@@ -1332,15 +1333,16 @@ a:hover {
     .release-header {
         font-size: 28px;
     }
-    
-     .curiosities-row-padding {
+
+    .curiosities-row-padding {
         padding-right: 5%;
         padding-left: 5%;
     }
-    
+
     .do-you-know {
-    font-size: 30px;
-}
+        font-size: 30px;
+    }
+  
 
 }
 
