@@ -1350,7 +1350,12 @@ a:hover {
 
 @media only screen and (max-width: 320px) {
 
-
+    h1,
+    h2,
+    h3 {
+        font-size: 30px;
+        padding-bottom: 30px;
+    }
 
     .header-menu-container > .header {
         font-size: 30px;
